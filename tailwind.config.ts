@@ -52,13 +52,6 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				// Cyber theme colors
-				'cyber-red': 'hsl(var(--cyber-red))',
-				'cyber-blue': 'hsl(var(--cyber-blue))',
-				'cyber-dark': 'hsl(var(--cyber-dark))',
-				'cyber-darker': 'hsl(var(--cyber-darker))',
-				'cyber-light': 'hsl(var(--cyber-light))',
-				'cyber-gray': 'hsl(var(--cyber-gray))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -95,13 +88,7 @@ export default {
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out',
-				'pulse': 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-			},
-			boxShadow: {
-				'cyber': 'var(--shadow-cyber)',
-				'glow': 'var(--shadow-glow)',
-				'card': 'var(--shadow-card)',
+				'accordion-up': 'accordion-up 0.2s ease-out'
 			}
 		}
 	},
